@@ -1,0 +1,142 @@
+#topBar{
+    height: auto;
+    width:100%;
+    /* border:1px solid red; */
+   background-image: url("https://www.pluralsight.com/content/pluralsight/en/pricing/free-trial/jcr:content/main/generic_block/image-res.img.5f7d7043-e64e-40aa-a1b1-43b5d06ddad5.jpg");
+  
+}
+#navbarSpace{
+    height: 70px;
+    width: 100%;
+
+}
+#topBar1{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+#topBar2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+   text-align: center;
+   color: white;
+}
+#topBar3{
+    height:60px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.forSpace1{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(24, 24, 24);
+}
+#subscription-section{
+    height: 89px;
+    width: auto;
+    /* border: 1px solid red; */
+    background-color: rgb(24,24,24);
+    display: flex;
+}
+#subscription-section>div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    color: white;
+    margin-left: 200px; 
+}
+#trialPart{
+       height: 160px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(24,24,24);
+}
+#trialPart2{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(24,24,24) ;
+}
+#trialPart2>div{
+    height: 250px;
+    width: 280px;
+    /* border: 1px solid red; */
+}
+#trialPart2>div>P{
+    color: white;
+    font-size: 20px;
+   
+}
+#trialPart2>div>img{
+    height: 30px;
+    padding-top: 10px;
+}
+#subscriptionSection{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(24,24,24);
+    margin-top: -4px;
+ 
+}
+#subscriptionSection>div{
+    height: 400px;
+    width: 500px;
+    /* border:  1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    background-color: rgb(25,25,25);
+}
+.underSubs{
+    color: white;
+    font-size: 20px;
+}
+#table1{
+    height: auto;
+    width: auto;
+    /* border: 1px solid red; */
+}
+#industryStandard{
+    height: 900px;
+    width: 1567px;
+    margin-top: -5px;
+    text-align: center;
+    /* border: 1px solid red; */
+      background-image: url("https://www.pluralsight.com/content/dam/pluralsight2/product/v2/skills-bg-cs.jpg");
+}
+#imagesGroup{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+#forspace{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+   
+}
+#frequentlyquestion{
+    height: 500px;
+    width: 1567px;
+    /* border: 1px solid red; */
+    background-color: rgb(24,24,24);
+    margin-top: -40px;
+}
+#firstDiv{
+    height: 100%;
+    width: 500px;
+    /* border: 1px solid red; */
+   
+}
+button{
+    border: none;
+    color: white;
+    font-size: 15px;
+    
+}

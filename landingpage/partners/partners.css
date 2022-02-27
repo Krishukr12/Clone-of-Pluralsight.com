@@ -1,0 +1,54 @@
+.maindiv {
+    background-color: #181818;
+
+    
+}
+
+.headpart {
+    background-image: url(https://www.pluralsight.com/content/pluralsight/en/partners/jcr:content/main/generic_block_copy/image-res.img.0c8922db-0c72-4aff-bd1e-ab837927fe5a.jpg);
+    height: 400px;
+}
+
+.headtext {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+/* .partner {
+    /* background-color: #343940; */
+/* } */
+
+.text {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: PS Commons;
+
+
+}
+
+.imgwidth {
+    width: 90%;
+}
+
+.partnerdiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+
+}
+
+.partnerdiv>div {
+    color: white
+}
+
+.colorblack {
+    background-color: black;
+    padding-top: 30px;
+
+}

@@ -1,0 +1,88 @@
+#monster{
+    display: none;
+}
+
+        .little{
+            background: linear-gradient(rgb(19, 19, 19),rgb(0, 0, 0));
+color: aliceblue;
+width: 70%;
+border-radius: 10px;
+margin-left: 10%;
+/* margin-top: 10px; */
+
+
+        }
+        .nextline{
+            margin-left:10px;
+            margin-right:10px;
+            border-color: gray;
+        }
+        .little>ul{
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            justify-content:space-around;
+
+        }
+        .little>ul>li{
+            /* margin-top: 20px; */
+            /* margin-left: 145px; */
+            font-size: 14px;
+            color: gray;
+
+        }
+  
+        .innerHeadson{
+            font-size: 16px;
+            color: white;
+        }
+        .headson{
+            font-size:16px;
+            color: white;
+        }
+        .little>ul>:nth-child(1){
+            margin-right: 0px;
+            margin-left: 30px;
+        }
+        .little>ul>:nth-child(4){
+         background: linear-gradient(to right, rgb(46, 45, 45),rgb(247, 0, 49));
+        
+            width: 60%;
+            height: 300px;
+            margin-left: 20px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            font-size: 18px;
+            
+         
+        }
+        .anderson>button{
+            height: 60px;
+            width: 200px;
+            margin-top: -10px;
+            background: deeppink;
+            border: none;
+            margin-left: 30px;
+            border-radius: 10px;
+
+
+        }
+        .anderson>button:hover{
+            background: linear-gradient(to right,tomato,rgb(196, 4, 132));
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+           
+        }
+
+        .anderson>button>a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .anderson>h2{
+            margin-left:30px ;
+
+        }
+        .anderson>h4{
+            margin-left: 30px;
+        }

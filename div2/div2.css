@@ -1,0 +1,369 @@
+body{
+    background: #000;
+}
+  /* universal tag for font family */
+  * {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* buttons:- view plan, try for free */
+
+.up > button {
+
+    background: linear-gradient(to right, rgb(240, 86, 44), crimson);
+    height: 58px;
+    width: 150px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* TARGETTING NAVIGATION */
+
+#navbar {
+
+    display: flex;
+    background:rgb(0, 0, 0);
+    align-items: center;
+    
+    
+   
+}
+.nav-link li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  
+}
+.navlink2 li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-link,.navlink2 li{
+  list-style: none;
+}
+#navbar .nav-link ,.navlink2{
+    display: inline-flex;
+    gap: 30px;
+    
+
+}
+.navlink2>li:nth-child(1){
+    margin-left: 500px;
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 18px;
+}
+.navlink2>li:nth-child(3)
+{
+    
+    
+ text-align: center;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-radius: 5px;
+
+    border: 1px solid white;
+}
+.navlink2>li:nth-child(2){
+    margin-top: 2%;
+  
+}
+
+.navlink2>li:nth-child(3):hover{
+border: 3px solid white;
+}
+
+
+
+
+
+.logo11{
+    height: 100px;
+    width: 200px;
+}
+.logo11>img{
+    height: 35px;
+    margin-top: 30px;
+
+
+}
+
+
+
+/* targeting first part */
+.up {
+    text-align: center;
+    padding-top: 4%;
+    
+    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/hero-illustration.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: 1700px;
+    height: 500px;
+    
+    
+}
+.up>button{
+    cursor: pointer;
+}
+
+.up>h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-bottom: 3%;
+    letter-spacing: normal;
+}
+
+.peter {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    font-weight: 550;
+    color: rgb(85, 85, 85);
+}
+
+.parkour {
+    font-size: 16px;
+    padding-bottom: 0%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(85, 85, 85);
+}
+
+#images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-left: 8%;
+    margin: 1% 15% 5% 14%;
+
+}
+
+/* targeting second part */
+
+.line {
+    margin-left: 50%;
+    margin-bottom: 3%;
+    height: 150px;
+    width: 6px;
+    background: linear-gradient(tomato, crimson, rgb(0, 0, 0));
+
+}
+
+/* targeting third part */
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, fr);
+    grid-template-areas:
+        "a b e"
+        "c d e"
+
+    ;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+ 
+
+
+}
+
+
+#grid>div>div>img {
+    height: 100px;
+    width: 100px;
+
+}
+
+#grid>div>div {
+    margin-top: -45%;
+    margin-left: 80%;
+}
+
+.a {
+    grid-area: a;
+
+    height: 165px;
+    padding: 0px 20px 0px 0px;
+    margin-right: 10%;
+    border-radius: 15px;
+    background: rgb(34, 34, 34);
+    color: white;
+
+
+}
+
+
+.b {
+    grid-area: b;
+    margin-right: 10%;
+    height: 165px;
+    padding: 0px 20px 10px 0px;
+    border-radius: 15px;
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+.c {
+    grid-area: c;
+    margin-right: 10%;
+    height: 165px;
+    padding: 0px 20px 10px 0px;
+    border-radius: 15px;
+    background: rgb(34, 34, 34);
+    color: white;
+
+}
+
+.d {
+    grid-area: d;
+    margin-right: 10%;
+    height: 165px;
+    padding: 0px 20px 10px 0px;
+    border-radius: 15px;
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+.e {
+    grid-area: e;
+    width: 600px;
+    
+    background: none;
+    color: white;
+   
+}
+
+/* INSIDE A B C D e*/
+
+.path {
+    color: #E40084;
+    margin-left: 10%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+
+}
+
+.name {
+    margin-left: 9%;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: -10px;
+}
+
+.para {
+    margin-left: 9%;
+    margin-top: -11px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 15px;
+    color: rgb(148, 145, 145);
+}
+
+.para>span {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.link {
+    color: aliceblue;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 9%;
+    text-decoration: none;
+    
+}
+
+
+.link>span {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    color: crimson;
+
+
+
+}
+.a:hover>.link>span{
+  margin-left: 1%;
+}
+
+.b:hover>.link>span{
+  margin-left: 1%;
+}
+.c:hover>.link>span{
+  margin-left: 1%;
+}
+.d:hover>.link>span{
+  margin-left: 1%;
+}
+.e:hover>.link2>span{
+  margin-left: 1%;
+}
+
+.path1 {
+    color: #E40084;
+    margin-top: 5%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.link2{
+    color: aliceblue;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+.link2>span{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    color: crimson;
+    font-size: 14px;
+}
+.e>h1{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 4%;
+}
+.e>p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#container{
+   
+    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+#contain{
+    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+}

@@ -1,0 +1,170 @@
+#Sc{
+    display: grid;
+   
+}
+body{
+background-color:#000000;
+font-family: 'Noto Sans', sans-serif;
+}
+#Ss1{
+    width:100%;
+    height:100px;
+   
+    margin-left: 10px;
+}
+#Ss1+h3{
+    color: #e40084;
+    margin-left: 10px;
+    font:15px
+}
+h3+h1{
+    color:white;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+#Ss2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,400px);
+    
+    gap:15px;
+    margin-left:10px;
+}
+
+#Ss2>div>a>img{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+#Ss2>div>h4{
+    color:#ffba0e
+}
+#Ss2>div>p{
+    color:white;
+    font-size: 19px;
+    
+}
+#div4son3{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: repeat(1,500px);
+    width: 100%;
+    margin-top: 50px;
+    
+    
+}
+
+#div4son3>div>img{
+    height: 100%;
+    width: 100%;
+    
+}
+#div4son31{
+    background: linear-gradient( to right,crimson,tomato);
+}
+#div4son31>div>img{
+    height:20px;
+    width:150px
+}
+#div4son31>div{
+    margin-top:100px;
+    margin-left: 50px;
+}
+#div4son31>h1{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#div4son31>h3{
+    color: white;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+#div4son31>a>button{
+    background-color: black;
+    color: white;
+    height:50px;
+    width: 300px;
+    text-align: center;
+    margin-top: -10px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 10px ;
+}
+#abhic1{
+    background-color: #181818;
+
+}
+#abhis1{
+    background-color: #181818;
+    height: 100px;
+    width:100%
+}
+#abhis2{
+    background-color: #222222;
+    height: 450px;
+    width:98%;
+    margin: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,100%);
+}
+#abhis2>div{
+   /* border: 1px solid red; */
+   border-radius: 20px;
+}
+#abhis22{
+   display: flex;
+}
+#abhis22>h3{
+color:white;
+    padding: 38px;
+    margin-left: -10px;
+}
+#imageValaTag>img{
+    height:100%;
+    width: 100%;
+    
+}
+#abhis23>p>i:hover{
+    
+    margin-right:100px;
+}
+#abhis23{
+    display: flex;
+    margin:20px;
+}
+#abhis3{
+    display: grid;
+    width: 100%;
+    height:650px;
+        
+    
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(1,550px);
+    justify-content: space-evenly;
+    
+    
+}
+#abhis3>div{
+   
+    margin-top:50px;
+    border-radius: 20px;
+    background-color: #222222;
+}
+#abhis31>img{
+margin-top:50px;
+margin-left: 30px;
+    
+}
+#abhis32>img{
+    margin-top:50px;
+margin-left: 30px;
+    
+}
+#abhis33>img{
+
+    margin-top:50px;
+margin-left: 30px;
+}

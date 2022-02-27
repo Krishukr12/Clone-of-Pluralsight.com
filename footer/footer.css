@@ -1,0 +1,84 @@
+body {
+    font-family: PS Commons;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+}
+
+#footer {
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #7c7c7d
+}
+
+.graycolor {
+    color: #7c7c7d
+}
+
+a:hover {
+    color: white;
+}
+
+.icon-color {
+    color: white;
+    font-size: 30px;
+    background-color: none;
+}
+
+.colorwhite {
+    color: white;
+}
+
+.language {
+    margin-left: 70px;
+}
+
+.language>a {
+    margin-left: 20px;
+}
+
+.fotbottom>p {
+    color: #7c7c7d;
+}
+
+.fotbottom {
+    display: flex;
+    justify-content: space-around
+}
+
+.icon>a {
+    margin-left: 20px;
+    color: white;
+
+}
+
+.termsanduses>a {
+    margin-left: 30px;
+
+}
+
+.psicon {
+    height: 40px;
+    width: 40px;
+}
+
+.displayicon {
+    display: flex;
+    justify-content: space-around;
+    /* margin: auto; */
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 90%;
+}

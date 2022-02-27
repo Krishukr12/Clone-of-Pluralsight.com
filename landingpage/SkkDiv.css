@@ -1,0 +1,118 @@
+   /* ---- this is css of part 0---- */
+   #skill {
+
+    font-weight: bold;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    padding-bottom: 40px;
+
+}
+
+#flow {
+    padding-top: 80px;
+    color: deeppink;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+
+}
+
+#twit {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 120px;
+}
+
+/* ---- this is end part  of 0 css ------------------------------------- */
+
+
+/* ---- this is css of part 1---------------------------------------------- */
+
+
+.c001 {
+
+    width: 100%;
+    height: 300px;
+
+    background-image: url('https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_1609496607/image-res.img.4ee74bf4-1aba-41bf-9e60-426ebc6092b8.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.c001>div {
+
+    width: 50%;
+    height: inherit;
+    padding-left: 15px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.c001 > div > h2 {
+    color: white;
+
+    font-size: 45px;
+
+
+}
+
+.c001 > div > p {
+    /* font-size: 16px; */
+    padding-bottom: 50px;
+    color: white;
+
+}
+.but {
+    border-color: white;
+    background-color: black;
+    height: 60px;
+    width: 230px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+     /* ---- this is end part  of 1 css ------------------------------------- */
+
+/* 
+ this is last part  css of index      */
+ #lasthcode{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    height: 300px;
+    display: flex;
+}
+#lasthcode > p{
+    font-family: 'Noto Sans', sans-serif;
+    padding-top:90px;
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right: 35%;
+    
+
+}
+#lasthcode > button{
+    
+    /* background-color: deeppink; */
+    background: linear-gradient( to right,tomato,deeppink);
+    color:white;
+    height:60px;
+    width: 250px;
+    font-weight: 900;
+    margin-top:110px;
+}
+
+/* css is finsihed */

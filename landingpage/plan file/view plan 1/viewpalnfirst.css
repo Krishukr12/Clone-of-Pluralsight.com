@@ -1,0 +1,239 @@
+
+.s1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+    /* border: 1px solid fuchsia; */
+    gap: 5px;
+    margin: auto;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.f1 {
+
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-align: center;
+    color: white;
+
+}
+
+.f1>h1 {
+    font-size: 40px;
+}
+
+.f1>h2 {
+    font-size: 40px;
+}
+
+.f1>h3 {
+    font-size: 15px;
+}
+
+.f1>button {
+
+    /* background-color: deeppink; */
+    background: linear-gradient(to right, tomato, deeppink);
+    color: white;
+    height: 60px;
+    width: 250px;
+    font-weight: 900;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.rut0 {
+    display: flex;
+}
+
+#top {
+
+    text-align: center;
+    color: white;
+    height: 400px;
+    padding-top: 40px;
+}
+
+#top>h1 {
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.f1>h6 {
+    background-color: orange;
+    font-size: 20px;
+    color: black;
+}
+
+#ov {
+    height: 30px;
+    width: 150px;
+    margin-bottom: -35px;
+}
+
+.code01 {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+    margin: auto;
+    /* border: 1px solid orange; */
+
+}
+
+.code02 {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid red; */
+    text-align: center;
+
+
+
+}
+
+.code01>h1 {
+    text-align: center;
+}
+
+#gift {
+    background-image: url('https://www.pluralsight.com/content/experience-fragments/pluralsight/Pricing/pricing-skills/en-pricing-skills-standard-and-starter/jcr:content/root/generic_block/parsys/generic_block_copy/image-res.img.f9eb0be6-69a7-4504-8854-eb59abaca571.jpg');
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gfitem {
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+
+}
+
+
+#gfitem>h1 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 40px;
+}
+
+#gfitem>button {
+    background: linear-gradient(to right, tomato, deeppink);
+    color: white;
+    height: 40px;
+    width: 180px;
+    font-weight: 900;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 4px;
+
+}
+
+.roll101 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(34, 33, 33);
+}
+
+#p11>p {
+    color: deeppink;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 12px;
+}
+
+#p11>h1 {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40x;
+    padding-left: 12px;
+
+
+
+}
+
+#p2 {
+    /* display: flex; */
+    justify-content: flex-end;
+    height: 651px;
+    color: whitesmoke;
+
+
+
+}
+
+#twit {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 120px;
+  
+}
+
+#flow {
+    padding-top: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+
+
+
+}
+
+.ls01 {
+    color: white;
+
+}
+
+.ls01>h4 {
+    color: white;
+    padding-top: 70px;
+
+}
+
+.lsimg101 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 200px;
+    background-color: 1px solid red;
+    background-color: black;
+    text-align: center;
+    border: 1px solid salmon;
+    
+}
+.skk01{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+}
+.e1 {
+    height: 100px;
+
+}
+
+.e1>img {
+    height: 30px;
+    width: 150px;
+    /* border: 1px solid red; */
+}
+#img>img{
+    width: 100%;
+}
+

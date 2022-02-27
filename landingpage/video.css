@@ -1,0 +1,71 @@
+.video {
+    position: relative;
+    
+
+    height: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.3;
+    
+    
+
+}
+
+.swift>h1{
+
+    margin-top: -35%;
+
+}
+
+.color-overlay {
+    background: #000;
+}
+.nano{
+    margin-top: 19%;
+    background: rgb(229, 0, 250);
+    height: 400px;
+    color: white;
+
+}
+.nano>h1{
+padding-top: 5%;
+margin-left: 5%;
+padding-bottom: 3%;
+}
+.swift>p{
+    color: antiquewhite; font-size: 20px;
+    margin-left: 2%;
+    
+}
+.swift>button{
+    height: 40px;
+    width: 200px;
+    background: rgb(236,0,140);
+    border: none;
+    border-radius: 3px;
+    margin-left: 2%;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+#no{
+    background: #181818;
+    height: 50px;
+    border: none;
+    width: 170px;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+#no>a{
+    font-size: 16px;
+    text-transform: uppercase;
+}

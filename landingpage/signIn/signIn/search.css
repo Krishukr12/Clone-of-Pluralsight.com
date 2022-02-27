@@ -1,0 +1,86 @@
+
+body{
+    background: #000;
+}
+.SearchBar{
+
+    /* margin-right: 15%; */
+    font-size: 20px;
+    
+
+    
+}
+.SearchBar {
+    display: grid;
+    justify-content: end;
+    
+
+}
+
+#active {
+
+    
+ 
+    background: rgb(49, 48, 48);
+    border-radius: 7px;
+
+
+
+}
+
+#active>input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(134, 129, 129);
+
+}
+
+#icon {
+    background: none;
+    border: none;
+    font-size: 25px;
+    margin-right: 250px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+
+input {
+    background: none;
+    border: none;
+    width: 1400px;
+    height: 60px;
+    margin-left: 5px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 1%;
+    color: rgb(134, 129, 129);
+
+}
+
+#chepo {
+    font-size: 20px;
+    cursor: pointer;
+    height: 70px;
+    color: rgb(218, 210, 210);
+    font-size: 23px;
+    margin-left: 50px;
+}
+
+.fa-xmark {
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 23px;
+    
+}
+
+#full_height {
+    height: 500px;
+    background: black;
+    opacity: 0.7;
+    border-radius: 6px;
+    
+}

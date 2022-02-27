@@ -1,0 +1,55 @@
+#prosub_menu{
+    display: none;
+}
+.fst{
+
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(37, 37, 37),black);
+    width:35%;
+    margin-left: 20%;
+
+
+
+}
+.skills1>img{
+    height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+.flow1>img{
+    height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+.flow1{
+    /* margin-left: -200px; */
+padding-right:7px;
+margin-left: 10px;
+}
+.skills1{
+    margin-left: 9px;
+    margin-right: 10px;
+}
+.nowon{
+    color: white;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.newline{
+    border-color: gray;
+    margin-bottom: 0;
+
+}
+.what>a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}

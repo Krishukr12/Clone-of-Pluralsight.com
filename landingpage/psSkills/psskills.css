@@ -1,0 +1,317 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.bgimg {
+    background-image: url("image/pluralsightskillimage.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 500px;
+
+
+}
+
+.width {
+    width: 50%;
+
+}
+
+.skillimg {
+    /* margin-top: 0px; */
+    padding-top: 30px;
+    position: absolute;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.zigzagline {
+    /* padding-top: 0px; */
+    width: 100px;
+    position: absolute;
+    margin-left: 0px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.headpart {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.coursebar {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    height: 90px;
+}
+
+.coursebar>div>h4>a {
+    color: white;
+    text-decoration: none;
+}
+
+.padding {
+    padding-left: 30px;
+    position: absolute;
+    padding-top: 150px;
+}
+
+.purple {
+    color: #cd0584;
+}
+
+.empower {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.technologyskill {
+    background-color: #2d2e2e;
+    width: 90%;
+    margin: auto;
+
+}
+
+.libraryimage {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 60px;
+}
+
+.rightclick {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marginleft {
+    margin-left: 60px;
+    /* padding-top: 20px; */
+}
+
+/* .fontsize {
+font-family: 'PS Commons Bold';
+font-weight: normal !important;
+} */
+.yellowcolor {
+    color: yellow;
+}
+
+.corelibrary {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.fontsize1 {
+    font-size: 17px;
+    color: #DDDDDD;
+}
+
+.graycolor {
+    color: #DDDDDD;
+}
+
+.browseourcourselibrary {
+    height: 80px;
+    width: 60%;
+    margin: auto;
+    /* background-color: orangered; */
+    border-radius: 8px;
+}
+
+.paddingtop {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.bgcolor {
+    background-color: black;
+    border-color: none;
+
+}
+
+.textdecor {
+    text-decoration: none;
+    color: white
+}
+.butpad>button{
+border: none;
+}
+
+.browsercoursediv {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-image: linear-gradient(to right, purple, orangered);
+    margin: auto;
+    border-radius: 8px;
+
+}
+
+.mainhandsondiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    grid-template-rows: auto;
+    width: 90%;
+
+    gap: 30px;
+}
+
+.mainhandsondiv>div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-left: 20px;
+}
+
+.logobar {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto
+}
+
+.logobar1 {
+    height: 80px;
+    width: 100px;
+    margin: 0px auto;
+    padding-top: 0px;
+    color: white;
+}
+
+.ROI {
+    background-image: linear-gradient(to right, purple, orangered);
+}
+
+.colorblack {
+    color: black;
+}
+
+.numberlogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: auto; */
+    padding-top: 20px;
+    margin: auto;
+    width: 50%;
+    gap: 20px;
+}
+
+.numberlogo>div {
+    /* height: 200px; */
+    width: 200px;
+}
+
+.resize {
+    /* height: 184px; */
+    width: 150px;
+}
+
+.quotation {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    padding-top: 40px;
+}
+
+.plansandpricing {
+    background-color: #2d2e2e
+}
+
+.plansdiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+
+}
+
+.plansdiv>div {
+    /* border:1px solid red; */
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button {
+    background-image: linear-gradient(to right, purple, orangered);
+}
+
+.askedquestion {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    /* background-color: #2d2e2e; */
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: 150px;
+}
+
+.nobgcolor {
+    background-color: black;
+    border: 2px solid white
+}
+
+.skilllooking {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* margin-top: 100px; */
+    padding-top: 80px;
+
+
+}
+
+.width {
+    width: 13%;
+
+}
+
+.starter {
+    width: 40%;
+}
+
+.trail {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.margintop {
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.butpad {
+    padding-top: 40px;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.blackdiv {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+
+}
+button{
+    border: none;
+}

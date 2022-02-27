@@ -1,0 +1,67 @@
+#total{
+    display: none;
+    
+}
+
+#active {
+
+    margin-top: 120px;
+ 
+    background: rgb(12, 12, 12);
+    border-radius: 7px;
+    margin-left: 12px;
+    opacity: 1;
+
+
+
+}
+
+#active>input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(134, 129, 129);
+
+}
+
+
+
+
+
+input {
+    background: none;
+    border: none;
+    width: 1445px;
+    height: 60px;
+    margin-left: 5px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 1%;
+    color: rgb(134, 129, 129);
+    
+
+}
+
+#chepo {
+    font-size: 20px;
+    cursor: pointer;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 50px;
+}
+
+.fa-xmark {
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 23px;
+ 
+    
+}
+
+#full_height {
+    height: 500px;
+    background: rgb(41, 40, 40);
+    opacity: 0.4;
+    border-radius: 6px;
+    
+}

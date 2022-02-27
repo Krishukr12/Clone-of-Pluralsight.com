@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: rgb(36, 36, 36);
+        }
+
+        #mega {
+            background:transparent;
+            display: none;
+            height: 100%;
+
+            color: aliceblue;
+
+        }
+
+        .listitem {
+            background: linear-gradient(rgb(22, 22, 22), rgb(0, 0, 0));
+            width: 100%;
+            margin-left: 112px;
+
+        }
+
+        .listitem>ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        hr {
+            margin-left: 2px;
+            margin-right: 2px;
+            border-color: rgb(109, 109, 109);
+            margin-top: 30px;
+            margin-bottom: 100px;
+
+        }
+
+        .items>div {
+            margin-top: 15%;
+        }
+
+        .items>div>span {
+            font-size: 17px;
+            font-weight: 600;
+            font-family: sans-serif;
+            cursor: pointer;
+            margin-left: 6px;
+
+        }
+
+        .items>div>p {
+            font-size: 17px;
+            font-weight: 600;
+            font-family: sans-serif;
+            cursor: pointer;
+            /* margin-left: 16px; */
+        }
+
+        .items>div>span>button {
+            border: none;
+            height: 25px;
+            margin-left: 3px;
+            width: 50px;
+            background: linear-gradient(to right, rgb(196, 0, 82), tomato);
+            color: white;
+            text-align: center;
+            font-weight: 600;
+
+        }
+
+        .items {
+            margin-top: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-bottom: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            /* padding-left: 150px; */
+            /*  */
+
+        }
+
+        .listitem>ul>:nth-child(4) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            /* background: rgb(148, 146, 146); */
+            height: 500px;
+            margin-left: 80px;
+
+            width: 50%;
+        }
+
+        .listitem>ul>:nth-child(4)>:nth-child(1) {
+
+            margin-top: 40px;
+
+            margin-left: -160px;
+        }
+
+        .listitem>ul>:nth-child(4)>:nth-child(2) {
+
+            margin-top: 40px;
+        }
+
+        .listitem>ul>:nth-child(4)>:nth-child(3) {
+
+            margin-top: -70px;
+
+
+
+        }
+
+
+        .listitem>ul>:nth-child(4)>:nth-child(4) {
+
+
+            margin-top: -70px;
+        }
+
+        .listitem>ul>:nth-child(4)>:nth-child(5) {
+
+
+
+            margin-top: -70px;
+        }
+
+        .grid {
+            display: flex;
+            border-radius: 15px;
+            opacity: 0.9;
+            background: rgb(34, 34, 34);
+            width: 46%;
+            /* margin-left: 150px; */
+            height: 100px;
+
+        }
+
+        .grid>div>img {
+            height: 50px;
+            margin-top: 12px;
+            margin-left: 16px;
+        }
+
+        .grid>.font {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+
+        }
+
+        .grid>.were {
+            width: 100%;
+            margin-top: 25px;
+            font-size: 12px;
+            margin-left: 30px;
+            /* text-align: center; */
+            letter-spacing: 1px;
+            font-family: sans-serif;
+        }
+
+        .grid>p>span {
+            color: aliceblue;
+        }
+
+        .grid>p>img {
+            height: 13px;
+        }
+
+
+        .listitem>.downward>.Lien {
+            border: 1px solid grey;
+            margin-top: -125px;
+            margin-right: 40px;
+            margin-left: 280px;
+        }
+
+        .listitem>.downward>.para23 {
+            display: flex;
+            gap: 20px;
+            margin-left: 300px;
+            letter-spacing: 1px;
+            font-family: monospace;
+            font-size: 14px;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="mega">
+        <div class="listitem">
+            <ul>
+                <li class="items">WAYS TO UPSKILLS
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/dashboard.png"
+                            alt="">
+                        <span>Courses</span>
+
+                    </div>
+                    <div>
+
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"
+                            alt="">
+                        <span>Skill Assesments</span>
+                    </div>
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/cloud.png"
+                            alt="">
+                        <span>Labs <button>New</button></span>
+                    </div>
+                    <div>
+                        <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/hand.png"
+                            alt="">
+                        <span>Hands-on learning</span>
+                    </div>
+                    <div> <img
+                            src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/certifications.png"
+                            alt="">
+                        <span>Certification prep</span>
+                    </div>
+                    <div> <img
+                            src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/live-classes-icon.svg"
+                            alt="">
+                        <span>Live Classes <button>New</button></span>
+                    </div>
+                    <div> <img
+                            src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/analytics.png"
+                            alt="">
+                        <span>Team efficiency</span>
+                    </div>
+                </li>
+                <hr class="non1">
+                <li class="items">SKILLS FOR
+                    <div>
+                        <p> Software devlopement</p>
+                    </div>
+                    <div>
+                        <p> IT ops</p>
+                    </div>
+                    <div>
+                        <p> Info & cyber security</p>
+                    </div>
+                    <div>
+                        <p> Cloud computing</p>
+                    </div>
+                    <div>
+                        <p> Machine learning/AI</p>
+                    </div>
+
+                    <div>
+                        <p>Data Professional</p>
+                    </div>
+                </li>
+
+                <li class="items"> TRENDING FOR PATH
+                    <div class="grid">
+                        <div>
+                            <img src="https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png?w=75"
+                                alt="">
+                        </div>
+
+
+                        <div class="were">
+                            <span class="font">Microsoft Azure Deployment</span>
+                        </div>
+                        <p style="margin-left:-290px ; margin-top: 50px;font-size: 12px; color: grey; ">
+                            <span>
+                                4
+                            </span>
+                            Courses
+                            <span>
+                                7
+
+                            </span>
+                            Hours
+
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"
+                                alt="">
+
+                        </p>
+                    </div>
+                    <div class="grid">
+                        <div>
+                            <img src="https://pluralsight2.imgix.net/paths/images/r-programming-eb2e267a97.png?w=75"
+                                alt="">
+                        </div>
+                        <div class="were">
+
+                            <span class="font">AWS Operations</span>
+                        </div>
+                        <p
+                            style="margin-left:-350px ; margin-top: 50px;font-size: 12px; color: grey; letter-spacing: 1px; ">
+                            <span>
+                                7
+                            </span>
+                            Courses
+                            <span>
+                                14
+                            </span>
+                            Hours
+
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"
+                                alt="">
+
+                        </p>
+                    </div>
+
+                    <div class="grid">
+                        <div>
+
+                            <img src="https://pluralsight2.imgix.net/paths/images/aws-certified-devops-engineer-25d912e3da.png?w=75"
+                                alt="">
+                        </div>
+                        <div class="were">
+
+                            <span class="font">Cleaning Data with R</span>
+                        </div>
+                        <p style="color:grey; margin-left:-300px ; margin-top: 50px;font-size: 12px; ">
+                            <span>
+                                5
+                            </span>
+                            Courses
+                            <span>
+                                8
+
+                            </span>
+                            Hours
+
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"
+                                alt="">
+
+                        </p>
+                    </div>
+
+                    <div class="grid">
+                        <div>
+
+                            <img src="https://pluralsight2.imgix.net/paths/images/python-7be70baaac.png?w=75" alt="">
+                        </div>
+                        <div class="were">
+
+                            <span class="font">Core Python</span>
+                        </div>
+                        <p style="color:grey; margin-left:-600px ; margin-top: 50px;font-size: 12px; ">
+                            <span>
+                                24
+                            </span>
+                            Courses
+                            <span>
+                                42
+
+                            </span>
+                            Hours
+
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"
+                                alt="">
+
+                        </p>
+                    </div>
+
+                    <div class="grid">
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/ruby-7e88ddd5f0.png?w=75" alt="">
+                        </div>
+
+                        <div class="were">
+
+                            <span class="font">Ruby Language Fundatmentals</span>
+                        </div>
+                        <p style="color:grey; margin-left:-300px ; margin-top: 50px; font-size: 12px; ">
+                            <span>
+                                7
+                            </span>
+                            Courses
+                            <span>
+                                13
+
+                            </span>
+                            Hours
+
+                            <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"
+                                alt="">
+
+                        </p>
+                    </div>
+
+                </li>
+
+            </ul>
+            <div class="downward">
+                <div class="Lien"></div>
+                <div class="para23" >
+
+                    <h4>See our entire course library</h4>
+                    <hr class="hori1" style="height: 20px; margin-top: 19px;">
+                    <h4> Check our Technology Index</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    var c;
+    function eve(){
+
+    if(c==1){
+        document.getElementById("mega").style.display="flex"
+        return c=0;
+    }
+    else{
+        document.getElementById("mega").style.display = "none"
+        return c=1;
+    }
+    }
+</script>

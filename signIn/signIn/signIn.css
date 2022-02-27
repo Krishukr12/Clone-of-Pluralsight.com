@@ -1,0 +1,175 @@
+#big {
+    display: flex;
+
+}
+
+#bag>img {
+
+    height: 65px;
+    margin: 17% 0% 0% 24%;
+
+}
+
+.mform {
+
+    margin: 0% 0% 0% 22%;
+
+}
+
+#bag {
+
+    height: 815px;
+    width: 40%;
+    background: rgb(13, 15, 18);
+
+
+}
+
+#img_bag {
+
+
+    width: 65%;
+
+    background: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png');
+}
+
+
+#img_bag>img {
+    height: 250px;
+    margin-top: 25%;
+    margin-left: 10%;
+
+}
+
+.h4 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-top: 5%;
+}
+
+.none {
+    height: 40px;
+    width: 350px;
+}
+
+#linBtn {
+    margin-top: 8%;
+
+}
+
+#linBtn>.lin2 {
+    color: rgb(0, 116, 171);
+
+    margin-left: 260px;
+    text-decoration: none;
+
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#linBtn>.lin1 {
+    color: rgb(0, 116, 171);
+
+    margin-left: 215px;
+    text-decoration: none;
+
+
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#linBtn>.lin1:hover {
+    text-decoration: underline;
+}
+
+#linBtn>.lin2:hover {
+    text-decoration: underline;
+}
+
+#linBtn> {
+    margin-left: 35%;
+
+}
+
+.nope1{
+    border-color: rgb(102, 102, 102);
+
+    width: 360px;
+
+}
+
+.sigBtn {
+    height: 40px;
+    width: 358px;
+    background-color: rgb(0, 116, 171);
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.sigBtn>a {
+    color: white;
+    text-decoration: none;
+}
+
+#Createan {
+
+    height: 40px;
+    width: 358px;
+    background-color: rgb(50, 59, 59);
+    border: none;
+
+    font-size: 18px;
+    margin-left: 21.5%;
+    margin-top: 2%;
+
+}
+
+#Createan>a {
+    color: white;
+    text-decoration: none;
+}
+
+.lastpara {
+    margin-top: 13%;
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bottopng>img {
+    height: 35px;
+    margin: 20% 0 0 84%;
+
+}
+
+div>#tff {
+    height: 40px;
+    width: 23%;
+    background: linear-gradient(to right, tomato, rgb(240, 0, 132), tomato);
+    border: none;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 1px;
+}
+
+#tff>a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
