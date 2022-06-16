@@ -3,7 +3,7 @@
 
 
 
-HTML, CSS, JAVASCRIPT
+
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
