@@ -1,57 +1,20 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
 
-Available Scripts
-In the project directory, you can run:
+# Pluralsight Clone
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+Pluralsight is an online learning and workforce development platform that helps businesses and individuals adjust to changing technology. Using a data-driven approach, the platform focuses on training for tech-based professions, such as IT operations, security and software development, as well as leadership, including managers and product leaders.
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+## Authors
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+- [@Shubham Kashyap](https://github.com/skashyap061998)
+- [@Sachin Kumar Kesari](https://github.com/skashyap061998)
+- [@Krishan Kumar Safi](https://github.com/Krishukr12)
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
+1.HTML
+2. CSS
+3. JAVASCRIPT
+4. 
+## Screenshots
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-See the section about deployment for more information.
-
-npm run eject
-Note: this is a one-way operation. Once you eject, you can't go back!
-
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-Learn More
-You can learn more in the Create React App documentation.
-
-To learn React, check out the React documentation.
-
-Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![App Screenshot](https://www.allhandsontech.com/images/programming/mean-stack/courses-mean-stack-developer-should-take/courses-mean-stack-developer-should-take-og.jpg)
+![App Screenshot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTROqjU8oi3RUM6p-Hwb5q697ap869m4U8JlJMZYYRJu_jpTgacUUtuQp4LHOQFFV7QEjE&usqp=CAU)
